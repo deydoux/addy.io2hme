@@ -15,5 +15,5 @@ async def lifespan(app: FastAPI):
 		app.state.hme = hme
 		yield
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(docs_url=None, openapi_url=None, redoc_url=None, lifespan=lifespan)
 app.include_router(api_router)
