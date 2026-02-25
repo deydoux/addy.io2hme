@@ -1,3 +1,4 @@
+# Original code: https://github.com/rtunazzz/hidemyemail-generator/blob/main/icloud/hidemyemail.py
 import asyncio
 import aiohttp
 import ssl
